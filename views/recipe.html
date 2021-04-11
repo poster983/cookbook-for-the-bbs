@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A cool thing made with Glitch" />
+
+    <title>Shef</title>
+  </head>
+    
+    <body>
+      <div class="banner">
+        <div class="navbar">
+          <h1>Collections</h1>
+          <ul>
+            <youssef-nav-button href="/">Home</youssef-nav-button>
+            <youssef-nav-button href="/collections">Collections</youssef-nav-button>
+            <youssef-nav-button href="/recipes/new">Add Recipes</youssef-nav-button>
+          </ul>
+        </div>
+        <recipe-card id="card" name="{{recipe.name}}" description="{{recipe.description}}" imgsrc="{{recipe.imgsrc}}"></recipe-card>
+      </div>
+      
+      
+      
+      <script src="/recipeScript.js"></script>
+    </body>
+</html>

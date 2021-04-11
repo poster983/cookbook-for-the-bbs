@@ -1,0 +1,176 @@
+{
+  "recipes": [
+    {
+      "_collections": [],
+      "id": "4b55797d-f206-4477-b95a-7bb6a1dd65b9",
+      "name": "Fillet Mignon",
+      "userID": "123asd",
+      "ingredients": [
+        "steak",
+        "onion"
+      ],
+      "tags": [
+        "good",
+        "healthy",
+        "american"
+      ],
+      "setupSteps": [
+        {
+          "title": "Defrost",
+          "time": 600,
+          "description": "Let the steak sit out"
+        },
+        {
+          "title": "End",
+          "time": 30,
+          "description": "Package it up"
+        }
+      ],
+      "cookingSteps": [
+        {
+          "title": "Heat",
+          "time": 340,
+          "description": "heat in a pan at 400"
+        },
+        {
+          "title": "Enjoy",
+          "time": 90,
+          "description": "Enjoy!"
+        }
+      ]
+    },
+    {
+      "_collections": [
+        "c74d44c9-451d-416a-a882-0a61ed12b5b7"
+      ],
+      "id": "2f60e80f-878c-4581-b9ef-cbc93eff30f3",
+      "name": "Egg Salad",
+      "userID": "123egg",
+      "ingredients": [
+        "4 Eggs",
+        "1tbs Mayo",
+        "1/4 dill pickle",
+        "salt & pepper"
+      ],
+      "tags": [
+        "Good"
+      ],
+      "setupSteps": [
+        {
+          "title": "Sandwich",
+          "time": 50,
+          "description": "mix ingredients"
+        },
+        {
+          "title": "End",
+          "time": 30,
+          "description": "Package it up"
+        }
+      ],
+      "cookingSteps": [
+        {
+          "title": "Heat",
+          "time": 340,
+          "description": "heat in the pan at 400"
+        },
+        {
+          "title": "Enjoy",
+          "time": 90,
+          "description": "Eat it"
+        }
+      ]
+    },
+    {
+      "id": "f272388e-e22f-4555-9e2f-fd19f07f19c8",
+      "name": "Shwarma",
+      "description": "Arab wrap",
+      "userID": "123Shwarma",
+      "ingredients": [
+        "Beef",
+        "Cabbage",
+        "tahine",
+        "garlic sauce"
+      ],
+      "tags": [
+        "Halal"
+      ],
+      "setupSteps": [
+        {
+          "title": "Beans & rice",
+          "time": 50,
+          "description": "a simple dish sure to satisfy you"
+        },
+        {
+          "title": "End",
+          "time": 30,
+          "description": "Package it up"
+        }
+      ],
+      "cookingSteps": [
+        {
+          "title": "Heat",
+          "time": 340,
+          "description": "heat in pan at 400"
+        },
+        {
+          "title": "Enjoy",
+          "time": 90,
+          "description": "Eat it"
+        }
+      ],
+      "_collections": []
+    }
+  ],
+  "collections": [
+    {
+      "id": "c74d44c9-451d-416a-a882-0a61ed12b5b7",
+      "name": "Arab Cuisine",
+      "description": "An assortment of middle eastern dishes that are guaranteed to have you wanting more!",
+      "userID": "Joey",
+      "imgsrc": "https://images.unsplash.com/photo-1593001872095-7d5b3868fb1d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+      "tags": [
+        "arab",
+        "middle east"
+      ],
+      "_recipes": [
+        "2f60e80f-878c-4581-b9ef-cbc93eff30f3"
+      ]
+    },
+    {
+      "id": "df609d9c-e1eb-4ffa-92c3-6ba51041e270",
+      "name": "Comfort Food",
+      "description": "Just like mother used to make!",
+      "userID": "Joey",
+      "imgsrc": "https://images.unsplash.com/photo-1536096119648-4cbab718f351?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bWFjJTIwYW5kJTIwY2hlZXNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+      "tags": [
+        "comfort"
+      ],
+      "_recipes": []
+    },
+    {
+      "id": "a8186d3c-690a-4ec2-abe0-69201573683f",
+      "name": "Soul Food",
+      "description": "The heartiest meals you could imagine at your fingertips",
+      "userID": "Joey",
+      "imgsrc": "https://images.unsplash.com/photo-1593181520415-5d48196b5ecb?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8ZnJpZWQlMjBjaGlja2VufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+      "tags": [
+        "southern",
+        "soul"
+      ],
+      "_recipes": []
+    },
+    {
+      "id": "ff6ecb5e-fcfa-48c3-a39b-d59fdef5b33a",
+      "name": "Tex-Mex",
+      "description": "Add a little bit of spice Texas",
+      "userID": "Joey",
+      "imgsrc": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bmFjaG9zfGVufDB8fDB8&auto=format&fit=crop&w=900&q=60",
+      "tags": [
+        "southern",
+        "inspired",
+        "comfort"
+      ],
+      "_recipes": []
+    }
+  ]
+}

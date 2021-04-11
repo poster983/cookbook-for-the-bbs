@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* for the title and the background picture for homepage */
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.35)),url(https://cdn.glitch.com/f7215625-538a-4fa5-a591-caba9ff989a8%2Fbaking_pans.jpg?v=1614449393784);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 26pt;
+  padding: 10px;
+  overflow-y: scroll;
+  /*display: flex;*/
+  /*position: absolute;
+  top: 0px;*/
+}
+
+.banner h1{
+  transform: translateX(20%);
+  transform: translateY(-1%);
+}
+
+/* for the navigation bar */
+.navbar{
+  width: 100%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  allign-items: center;
+  justify-content: space-between;
+  font-size: 16pt;
+  /*align-self: flex-start;*/
+}
+
+/* For the big text in the middle */ 
+ .content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+} 
+
+/* for the big text in the middle */
+ .content h1{
+  font-size: 30pt;
+  margin-top: 80px;
+} 
+
+/* for our names */
+ .content p{
+  margin: 20px auto;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.sign-up{
+  width:100%;
+  position: absolute;
+
+}
