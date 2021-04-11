@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A cool thing made with Glitch" />
+
+    <title>Shef</title>
+  </head>
+
+  <body>
+    <div class="banner">
+      <div class="navbar">
+        <h1>Collections</h1>
+        <ul>
+          <youssef-nav-button href="/">Home</youssef-nav-button>
+          <youssef-nav-button href="/collections">Collections</youssef-nav-button>
+          <youssef-nav-button href="/recipes/new">Add Recipes</youssef-nav-button>
+        </ul>
+      </div>
+          <main class="grid">
+     <!-- <collection-card title="Arab Cuisine" description="an assortment of middle eastern dishes that are guaranteed to have you wanting more!"></collection-card>
+      <collection-card title="Asian Cuisine" description="dishes far from the east with the most unique flavors!"></collection-card>
+      <collection-card title="Soul Food" description="The heartiest meals you could imagine at your fingertips "></collection-card>
+<!--       <collection-card title="Dick Cheese" description="an assortment of the finest smegma you can find in the US"></collection-card> --
+      <collection-card title="Arab Cuisine" description="an assortment of middle eastern dishes that are guaranteed to have you wanting more!"></collection-card>
+      <collection-card title="Arab Cuisine" description="an assortment of middle eastern dishes that are guaranteed to have you wanting more!" ></collection-card>      
+      <collection-card title="Arab Cuisine" description="an assortment of middle eastern dishes that are guaranteed to have you wanting more!" ></collection-card>      -->
+
+      {{#collections}}
+        <collection-card collection-id="{{id}}" title="{{name}}" description="{{description}}" imgsrc="{{imgsrc}}"></collection-card>
+      {{/collections}}
+      
+        
+    </main>
+    </div>
+
+
+
+    <!--       <recipe-card id="card" title="Mac And Cheese" description="Wet ass" imgsrc="https://cdn.glitch.com/f7215625-538a-4fa5-a591-caba9ff989a8%2Flouis-hansel-shotsoflouis-VhqBh21uz0k-unsplash.jpg?v=1614476182288"></recipe-card> -->
+    <script src="./collectionsScript.js"></script>
+  </body>
+</html>
